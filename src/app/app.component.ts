@@ -10,8 +10,8 @@ export class AppComponent implements OnInit {
 	title = 'Proof of Concept - LIFF';
 	idToken: string = '';
 	displayName: string = '';
-	pictureUrl: string = '';
-	statusMessage: string = '';
+	pictureUrl: any = '';
+	statusMessage: any = '';
 	userId: string = '';
 
 	constructor() {
